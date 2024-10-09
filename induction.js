@@ -43,3 +43,16 @@ document.getElementById('getWeather').addEventListener('click', () => {
         document.getElementById('weatherResult').innerHTML = '<p>Please enter a city name</p>';
     }
 });
+
+document.getElementById('city').addEventListener('keydown', function(event) {
+    if(event.key==="Enter")
+    {
+        const city = document.getElementById('city').value;
+        console.log(`City entered: ${city}`);
+        if (city) {
+            getWeather(city);
+        } else {
+            document.getElementById('weatherResult').innerHTML = '<p>Please enter a city name</p>';
+        }
+    }
+});
