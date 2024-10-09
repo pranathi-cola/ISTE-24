@@ -33,9 +33,10 @@ h1 {
     margin-bottom: 20px;
 }
 
-.input-group {
+.inputgroup {
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 input {
