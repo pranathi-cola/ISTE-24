@@ -1,4 +1,14 @@
-/* styles.css */
+.container img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    object-fit: cover; 
+}
+.container img {
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,7 +19,6 @@ body {
     height: 100vh;
     background: #f0f0f0;
 }
-
 .container {
     background: white;
     padding: 20px;
